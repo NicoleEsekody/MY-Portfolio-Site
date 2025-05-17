@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.resumegiants.com/blog/wp-content/uploads/2023/12/portfolio-website-design-examples.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.8);
+  color: rgb(88, 50, 50);
+}
+
+/* Navigation Bar */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+
+h1, h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+
+p {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px;
+}
+
+.projects img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(54, 6, 6, 0.822);
+}
+
+
+.contactus {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 40px;
+}
